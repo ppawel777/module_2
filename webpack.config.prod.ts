@@ -2,8 +2,8 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-const { merge } = require('webpack-merge');
-const CommonConfig = require('./webpack.config.common')
+// const { merge } = require('webpack-merge');
+// const CommonConfig = require('./webpack.config.common')
 
 module.exports = merge(CommonConfig, {
   mode: 'production',

@@ -3,23 +3,20 @@ const path = require('path');
 module.exports = {
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint'],
-    "env": {
+    env: {
         "browser": true,
         "es2021": true
     },
-    "extends": [
+    extends: [
         // "eslint:recommended",
         'plugin:@typescript-eslint/recommended'
     ],
-    "overrides": [
-    ],
-    "parserOptions": {
+    // overrides: [
+    // ],
+    parserOptions: {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-    }
+    // "rules": {
+    // }
 }

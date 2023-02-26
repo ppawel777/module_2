@@ -47,12 +47,12 @@ const posts: IPosts[] = [
 // console.log(posts.sort((a, b) => a.id > b.id ? 1 : -1))
 
 const ready = (): void => {
-  type IById = {
+  type TypeById = {
     [key: string]: IPosts
   };
 
   type TypeOutputData = {
-    byId: IById,
+    byId: TypeById,
     allIds: string[]
   };
   

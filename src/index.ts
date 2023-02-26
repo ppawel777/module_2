@@ -58,7 +58,7 @@ const ready = (): void => {
   
   const normalizeData = (unnormalizedData: IPosts[]): TypeOutputData => {
     // Your code here...
-    const normalizeData: TypeOutputData = {
+    const normalizeDataSet: TypeOutputData = {
       byId: {},
       allIds: []
     };
@@ -79,7 +79,7 @@ const ready = (): void => {
         ]
       };
       return outPut
-    }, normalizeData);
+    }, normalizeDataSet);
   };
   
   const normalizeDataoutput = normalizeData(posts);
